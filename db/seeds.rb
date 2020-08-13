@@ -10,6 +10,7 @@ Player.destroy_all
 Game.destroy_all
 Deal.destroy_all
 PlayerGame.destroy_all
+Trick.destroy_all
 
 p = Player.create(username: "primus", password: "password", email: "primus@senate.gov", country: "Italy")
 s = Player.create(username: "secundus", password: "password", email: "secundus@senate.gov", country: "Turkey")
